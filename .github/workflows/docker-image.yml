@@ -44,7 +44,7 @@ jobs:
 
     - name: Build the Docker image 
 
-      run: docker build . --file Dockerfile --tag iocampos1/randomquotes:latest 
+      run: docker build . --file randomquotes/Dockerfile --tag iocampos1/randomquotes:latest 
 
        
 
