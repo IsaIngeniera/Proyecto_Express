@@ -44,10 +44,11 @@ jobs:
 
     - name: Build the Docker image 
 
-      run: docker build . --file Dockerfile --tag isaingeniera/proyecto_express:latest 
+      run: docker build . --file Dockerfile --tag iocampos1/randomquotes:latest 
 
        
 
     - name: Docker Push 
 
-      run: docker push isaingeniera/proyecto_express
+      run: docker push iocampos1/randomquotes
+
